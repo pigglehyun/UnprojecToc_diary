@@ -9,10 +9,16 @@ header{
     background-color: #435399;   /*헤더 스타일 입니다.*/
     text-align: center;
     background: linear-gradient(to right, #f6ffd9, #c1d3ff); 
- 
     border-radius: 3px; color: #ffffff;
+    color: #c977ff,#f3bed7;;
 }
 
+#theme_change{
+    text-align: right;
+    border: none;
+    background-color: none;
+
+}
 header > div{
     float: center;
 }
@@ -61,14 +67,14 @@ section{
     width: 45%;
     height: 500px;
     float: left;
-    border: solid 1px #9097DE;
+    border: solid 1px #535785;
     box-sizing: border-box;
 }
 
 h2{
     margin: 10px;
     padding: 20px;
-    background-color: #cedcff;
+    background-color: #d1e2ff;
     color: white;
     border-radius: 1em; 
 }
@@ -217,22 +223,13 @@ footer{
 }
 
 
-
-#tbl0{                               /*날씨 섹션의 표 스타일에 해당한다*/
-width : 45%;
-border : 2px solid #435399;
+#weather_icon {
+    font-size: 50px;
 }
 
-#tbl0 th{
-    border : 1px solid #435399;
-    text-align: center;
-}
 
-#tbl0 td{
-    border : 1px solid #435399;
-    text-align: center;
-}
 
 #wea{
     margin-left: 10px;
+    text-align: center;
 }
